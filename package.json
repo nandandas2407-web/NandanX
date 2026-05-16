@@ -1,0 +1,81 @@
+{
+  "name": "nandanx",
+  "version": "1.0.1",
+  "description": "NandanX — The all-in-one creative UI animation library. 60+ engines, 250+ effects. Drop it in, everything comes alive.",
+  "main": "nandanx.js",
+  "browser": "nandanx.js",
+  "module": "nandanx.js",
+  "exports": {
+    ".": "./nandanx.js"
+  },
+  "files": [
+    "nandanx.js",
+    "js/",
+    "index.html",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "cat js/config.js js/utils.js js/cursor.js js/hover.js js/scroll.js js/magnet.js js/particle.js js/3d.js js/physics.js js/mood.js js/ai-engine.js js/extras.js js/creative-extras.js js/text.js js/noise.js js/modal.js js/form.js js/charts.js js/router.js js/audio.js js/drag.js js/media.js js/theme.js js/components.js js/state.js js/timeline.js js/gesture.js js/storage.js js/network.js js/accessibility.js js/events.js js/webgl.js js/layout.js js/search.js js/smooth-scroll.js js/parallax.js js/svg-morph.js js/typography.js js/shader.js js/particle-systems.js js/physics-world.js js/cursor-fx.js js/glitch.js js/audio-visualizer.js js/scene3d.js js/page-transitions.js js/gradient.js js/webrtc.js js/live-chat.js js/sync.js js/advanced-ui.js js/smart-form.js js/microinteractions.js js/builder.js js/reveal.js js/spring.js js/video-filters.js js/infinite-marquee.js js/holographic-ui.js js/adaptive-ui.js js/core.js > nandanx.js",
+    "demo": "npx serve ."
+  },
+  "keywords": [
+    "animation",
+    "ui",
+    "effects",
+    "cursor",
+    "particles",
+    "scroll-reveal",
+    "hover-effects",
+    "parallax",
+    "physics",
+    "webgl",
+    "glsl",
+    "canvas",
+    "creative",
+    "interactive",
+    "microinteractions",
+    "holographic",
+    "glitch",
+    "typography",
+    "charts",
+    "gesture",
+    "drag",
+    "3d",
+    "tilt",
+    "magnetic",
+    "svg-morph",
+    "spring",
+    "dark-mode",
+    "theme",
+    "modal",
+    "toast",
+    "router",
+    "state",
+    "accessibility",
+    "zero-dependencies",
+    "vanilla-js"
+  ],
+  "author": "Nandan Das",
+  "license": "MIT",
+  "homepage": "https://github.com/nandandas2407-web/nandanx#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nandandas2407-web/nandanx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nandandas2407-web/nandanx/issues"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "browserslist": [
+    "Chrome >= 80",
+    "Firefox >= 75",
+    "Safari >= 13",
+    "Edge >= 80"
+  ],
+  "devDependencies": {},
+  "peerDependencies": {},
+  "dependencies": {}
+}
